@@ -6,6 +6,6 @@ services:
    context: .
    dockerfile: ashu.dockerfile
   container_name: debarajcont1
-  port: 
+  ports: 
    - "2005:80"
     
