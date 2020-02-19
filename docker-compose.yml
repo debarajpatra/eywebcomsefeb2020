@@ -4,7 +4,7 @@ services:
   image: debarajweb:v4
   build:
    context: .
-   dockerfile: debaraj.dockerfile
+   dockerfile: ashu.dockerfile
   container_name: debarajcont1
   port: 
    - "2005:80"
