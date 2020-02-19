@@ -1,10 +1,11 @@
 version: '3.7'
 services:
- eywebappashu:
-  image: ashueyfebwebapp:v10
+ debarajapp1:
+  image: debarajweb:v4
   build:
    context: .
-   dockerfile: ashu.dockerfile
-  container_name: debarajcont3
-  ports:
-   - "8787:80"
+   dockerfile: debaraj.dockerfile
+  container_name: debarajcont1
+  port: 
+   - "2005:80"
+    
